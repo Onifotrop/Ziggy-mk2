@@ -12,6 +12,9 @@ public class PlayerControler : MonoBehaviour
     public SpriteRenderer thisSprite;
     Rigidbody2D thisRigidbody2D;
     public bool isGrounded;
+    public LayerMask myLayerMask;
+
+    //RaycastHit2D isHit;
     void Start()
     {
         //thisSprite = GetComponent<SpriteRenderer>();
@@ -61,10 +64,22 @@ public class PlayerControler : MonoBehaviour
         
         RaycastHit2D Hit = Physics2D.Raycast(myRay.origin, myRay.direction, maxDistance);
         Debug.DrawRay(myRay.origin,myRay.direction * maxDistance, Color.red);
+        
+        RaycastHit2D HitTwo = Physics2D.Raycast(trigDetect.origin, myRay.direction, maxDistance*100);
         Debug.DrawRay(myRay.origin,myRay.direction * maxDistance * 50, Color.magenta);
+       
+        
         
         //if (Physics2D.Raycast(myRay.origin, myRay.direction, maxDistance))
         //if (Hit.collider.gameObject.CompareTag("Ground"))
+        if ((Physics2D.Raycast(trigDetect.origin, myRay.direction, maxDistance))&&HitTwo.collider.gameObject.CompareTag("ForceUp"))
+        {
+            print(HitTwo.collider.gameObject.tag);
+            print("ForceUp");
+            transform.Translate(Vector3.up);
+        }
+        
+        
         if ((Physics2D.Raycast(myRay.origin, myRay.direction, maxDistance))&& Hit.collider.gameObject.tag == "Ground")
         {
             print("Grounded");

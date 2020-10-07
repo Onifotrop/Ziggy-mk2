@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccf2931c-8a34-4482-82c1-54cfc4ff4205" name="Default Changelist" comment="" />
@@ -10,7 +10,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ForceController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Inclasstest3/Assets/Scripts/SimplePhysicsController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Inclasstest3/Assets/Scripts/SimplePhysicsController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ButtonControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerControler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Elevator.cs" root0="FORCE_HIGHLIGHTING" />
@@ -21,9 +21,9 @@
         <option value="$PROJECT_DIR$/Assets/PlayerControler.cs" />
         <option value="$PROJECT_DIR$/Assets/CamControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerControler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ForceController.cs" />
         <option value="$PROJECT_DIR$/Assets/ButtonControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerControler.cs" />
       </list>
     </option>
   </component>
@@ -73,6 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601841449000</updated>
       <workItem from="1601841460463" duration="8981000" />
+      <workItem from="1602083303278" duration="4210000" />
     </task>
     <servers />
   </component>
