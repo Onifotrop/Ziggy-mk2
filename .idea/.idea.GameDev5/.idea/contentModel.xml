@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\harry\.Rider2019.2\system\extResources" t="IncludeRecursive" />
@@ -7,12 +7,20 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="ButtonControl.cs" t="Include" />
+        <e p="Cardreader.cs" t="Include" />
+        <e p="DoubleJump.cs" t="Include" />
+        <e p="EvanControl.cs" t="Include" />
+        <e p="Keycard.cs" t="Include" />
+        <e p="Keycard3.cs" t="Include" />
+        <e p="OrangeReader.cs" t="Include" />
+        <e p="PlatformControl.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="CamControl.cs" t="Include" />
           <e p="Elevator.cs" t="Include" />
           <e p="ForceController.cs" t="Include" />
           <e p="PlayerControler.cs" t="Include" />
         </e>
+        <e p="weightControll.cs" t="Include" />
       </e>
       <e p="GameDev5.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

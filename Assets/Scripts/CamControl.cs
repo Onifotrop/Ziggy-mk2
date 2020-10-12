@@ -7,6 +7,7 @@ public class CamControl : MonoBehaviour
     // Start is called before the first frame update
     public GameObject playerObj;
     public bool camMove;
+    public float offsetY;
     void Start()
     {
         
@@ -23,7 +24,7 @@ public class CamControl : MonoBehaviour
         if (camMove)
         {
             print("Cam move now");
-            transform.position = new Vector3(playerObj.transform.position.x, transform.position.y,transform.position.z);
+            transform.position = new Vector3(playerObj.transform.position.x, playerObj.transform.position.y + offsetY,transform.position.z);
         }
     }
 }

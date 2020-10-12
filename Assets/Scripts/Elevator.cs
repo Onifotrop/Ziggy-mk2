@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Elevator : MonoBehaviour
 {
-    public GameObject elevator;
-    public GameObject elevatorTop;
+    //public GameObject elevator;
+    //public GameObject elevatorTop;
     public bool triggered;
     public bool isUp;
 
@@ -25,21 +25,21 @@ public class Elevator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isUp)
-        {
-            elevatorTop.GetComponent<SpriteRenderer>().color = new Color(0, 213, 255);
-        }
-        else if (isDown)
-        {
-            elevatorTop.GetComponent<SpriteRenderer>().color = new Color(255, 163, 163);
-        }
+//        if (isUp)
+//        {
+//            elevatorTop.GetComponent<SpriteRenderer>().color = new Color(0, 213, 255);
+//        }
+//        else if (isDown)
+//        {
+//            elevatorTop.GetComponent<SpriteRenderer>().color = new Color(255, 163, 163);
+//        }
         if (triggered)
         {
             if (isUp)
             {
                 if (deltaDis < distance)
                 {
-                    elevator.transform.Translate(0,speed * Time.deltaTime,0);
+                    this.transform.Translate(0,speed * Time.deltaTime,0);
                     deltaDis += speed * Time.deltaTime;
                 }
             }
@@ -47,7 +47,7 @@ public class Elevator : MonoBehaviour
             {
                 if (deltaDis < distance)
                 {
-                    elevator.transform.Translate(0,-speed * Time.deltaTime,0);
+                    this.transform.Translate(0,-speed * Time.deltaTime,0);
                     deltaDis += speed * Time.deltaTime;
                 }
             }
