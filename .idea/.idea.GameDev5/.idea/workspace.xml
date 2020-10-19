@@ -9,20 +9,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/EvanControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CamControl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ButtonControl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OrangeReader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GreenControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerControler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Cardreader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Keycard.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/weightControll.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PlatformControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/OrangeReader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Eaten.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cardreader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ForceController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DoubleJump.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Keycard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EvanControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Inclasstest3/Assets/Scripts/SimplePhysicsController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/weightControll.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Elevator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Keycard3.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Ending.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Keycard3.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -34,14 +34,24 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" />
         <option value="$PROJECT_DIR$/Assets/Keycard.cs" />
         <option value="$PROJECT_DIR$/Assets/Cardreader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CamControl.cs" />
         <option value="$PROJECT_DIR$/Assets/EvanControl.cs" />
         <option value="$PROJECT_DIR$/Assets/DoubleJump.cs" />
         <option value="$PROJECT_DIR$/Assets/Keycard3.cs" />
         <option value="$PROJECT_DIR$/Assets/OrangeReader.cs" />
         <option value="$PROJECT_DIR$/Assets/PlatformControl.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerControler.cs" />
         <option value="$PROJECT_DIR$/Assets/weightControll.cs" />
+        <option value="$PROJECT_DIR$/Assets/GreenControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Eaten.cs" />
+        <option value="$PROJECT_DIR$/Assets/Ending.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CamControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Cardreader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EvanControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OrangeReader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Keycard.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Keycard3.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GreenControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/weightControll.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerControler.cs" />
       </list>
     </option>
   </component>
@@ -94,6 +104,8 @@
       <workItem from="1602083303278" duration="4210000" />
       <workItem from="1602479789872" duration="981000" />
       <workItem from="1602481273277" duration="10824000" />
+      <workItem from="1602689152401" duration="4509000" />
+      <workItem from="1603002503183" duration="8548000" />
     </task>
     <servers />
   </component>
